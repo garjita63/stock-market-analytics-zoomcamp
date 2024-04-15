@@ -12,7 +12,6 @@ import pandas as pd
 # Read dataset
 df = pd.read_csv("GDPC1.csv")
 
-# Assuming your dataframe is named df
 # Convert DATE column to datetime if it's not already in datetime format
 df['DATE'] = pd.to_datetime(df['DATE'])
 
