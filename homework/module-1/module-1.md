@@ -126,10 +126,6 @@ Describe an analytical strategy/idea (you're not required to implement it) to se
 
 ### Answer 7
 
-Explore earning dates for the whole month of April - e.g. using YahooFinance earnings calendar (https://finance.yahoo.com/calendar/earnings?from=2024-04-21&to=2024-04-27&day=2024-04-23). Compare with the previous closed earnings (e.g., recent dates with full data https://finance.yahoo.com/calendar/earnings?from=2024-04-07&to=2024-04-13&day=2024-04-08).
-
-Describe an analytical strategy/idea (you're not required to implement it) to select a subset companies of interest based on the future events data.
-ChatGPT
 Analyzing earnings release dates can offer insights into market movements and potential trading opportunities. One strategy could involve comparing the upcoming earnings dates with historical data to identify patterns or trends. For instance, you could:
 
 Volatility Analysis: Compare the historical volatility of stocks before and after earnings releases to identify those with the highest potential for price movement.
