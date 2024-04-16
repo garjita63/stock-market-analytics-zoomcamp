@@ -87,29 +87,35 @@ Download and explore a few additional metrics or time series that might be valua
 
 ### Answer 6
 
-For my project, I've decided to explore a few additional metrics that could provide valuable insights into the performance and behavior of the selected stocks. Here are the metrics I'll be investigating:
+Explore a few additional metrics that could provide valuable insights into the performance and behavior of the selected stocks. Here are the metrics I'll be investigating:
 
-Price-to-Earnings Ratio (P/E Ratio): The P/E ratio is a fundamental valuation metric that compares a company's current stock price to its earnings per share (EPS). A low P/E ratio may indicate that a stock is undervalued, while a high P/E ratio may suggest that it's overvalued. Understanding the P/E ratio can provide insights into investor sentiment and market expectations for future earnings growth.
+**Price-to-Earnings Ratio (P/E Ratio)**: The P/E ratio is a fundamental valuation metric that compares a company's current stock price to its earnings per share (EPS). A low P/E ratio may indicate that a stock is undervalued, while a high P/E ratio may suggest that it's overvalued. Understanding the P/E ratio can provide insights into investor sentiment and market expectations for future earnings growth.
 
-Price-to-Book Ratio (P/B Ratio): The P/B ratio compares a company's market capitalization to its book value. It's calculated by dividing the current market price per share by the book value per share. A low P/B ratio may indicate that a stock is undervalued relative to its book value, while a high P/B ratio may suggest that it's overvalued. Examining the P/B ratio can help assess a stock's valuation compared to its intrinsic value.
+**Price-to-Book Ratio (P/B Ratio)**: The P/B ratio compares a company's market capitalization to its book value. It's calculated by dividing the current market price per share by the book value per share. A low P/B ratio may indicate that a stock is undervalued relative to its book value, while a high P/B ratio may suggest that it's overvalued. Examining the P/B ratio can help assess a stock's valuation compared to its intrinsic value.
 
-Return on Equity (ROE): ROE measures a company's profitability by comparing net income to shareholders' equity. It shows how effectively a company is using its equity to generate profits. A high ROE indicates that a company is efficiently utilizing shareholder funds, while a low ROE may suggest inefficiency or poor performance. Analyzing ROE can provide insights into a company's profitability and management effectiveness.
+**Return on Equity (ROE)**: ROE measures a company's profitability by comparing net income to shareholders' equity. It shows how effectively a company is using its equity to generate profits. A high ROE indicates that a company is efficiently utilizing shareholder funds, while a low ROE may suggest inefficiency or poor performance. Analyzing ROE can provide insights into a company's profitability and management effectiveness.
 
-Volatility (Historical Volatility): Volatility measures the degree of variation in a stock's price over time. It's often expressed as the standard deviation of the stock's returns. High volatility stocks tend to have larger price swings, which may present both opportunities and risks for investors. Understanding historical volatility can help assess the riskiness of a stock and its potential for price fluctuations.
+**Volatility (Historical Volatility)**: Volatility measures the degree of variation in a stock's price over time. It's often expressed as the standard deviation of the stock's returns. High volatility stocks tend to have larger price swings, which may present both opportunities and risks for investors. Understanding historical volatility can help assess the riskiness of a stock and its potential for price fluctuations.
 
 By exploring these additional metrics, I aim to gain a deeper understanding of the financial performance, valuation, and risk profile of the selected stocks. These insights will help me make more informed investment decisions and better assess the potential opportunities and risks associated with each stock.
 
 Here's how I would technically explore the project using Python, pandas, and other relevant libraries:
 
-Data Collection:
+1. Data Collection
 
 First, I would define the list of stocks to analyze. For this example, let's use the same list: ['2222.SR', 'BRK-B', 'AAPL', 'MSFT', 'GOOG', 'JPM']. I would then use the yfinance library to download historical OHLCV data for each stock, covering the desired time period. Data Preprocessing:
 
-Once the data is downloaded, I would preprocess it to ensure consistency and cleanliness. This might involve handling missing values, converting data types, and aligning the dataframes for further analysis. Exploratory Data Analysis (EDA):
+Once the data is downloaded, I would preprocess it to ensure consistency and cleanliness. This might involve handling missing values, converting data types, and aligning the dataframes for further analysis. 
 
-Next, I would conduct exploratory data analysis to gain insights into the datasets. This could involve calculating summary statistics, visualizing price movements, and identifying any trends or patterns. Calculation of Additional Metrics:
+2. Exploratory Data Analysis (EDA)
 
-With the OHLCV data in hand, I would calculate the additional metrics mentioned earlier: Price-to-Earnings Ratio (P/E Ratio) Price-to-Book Ratio (P/B Ratio) Return on Equity (ROE) Historical Volatility These metrics would be calculated based on the historical price and financial data available for each stock. Visualization:
+Next, I would conduct exploratory data analysis to gain insights into the datasets. This could involve calculating summary statistics, visualizing price movements, and identifying any trends or patterns. 
+
+3. Calculation of Additional Metrics
+
+With the OHLCV data in hand, I would calculate the additional metrics mentioned earlier: Price-to-Earnings Ratio (P/E Ratio) Price-to-Book Ratio (P/B Ratio) Return on Equity (ROE) Historical Volatility These metrics would be calculated based on the historical price and financial data available for each stock. 
+
+4. Visualization
 
 I would create visualizations to present the calculated metrics and insights in a clear and intuitive manner. This could include line plots, bar charts, histograms, and scatter plots to illustrate trends, distributions, and relationships. Interpretation and Conclusion:
 
