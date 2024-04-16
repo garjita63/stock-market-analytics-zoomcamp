@@ -1,4 +1,6 @@
 
+*Note: For solution, see homework-1.ipynb*
+
 ## Question 1: [Macro] Average growth of GDP in 2023
 
 What is the average growth (in %) of GDP in 2023?
