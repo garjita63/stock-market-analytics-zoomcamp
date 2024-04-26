@@ -12,7 +12,7 @@
   - [Answer/Solution](https://github.com/garjita63/stock-market-analytics-zoomcamp/tree/main/homework/module-1)
 
 
-## Module 01 : Intro and Data Sources
+## Module 02 : Dataframe Analysis
 
 - [Source](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/tree/main/02-dataframe-analysis)
 
@@ -23,6 +23,3 @@
   - [Form Submitted]()
   - [Answer/Solution]()
 
-
-
-https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/tree/main/02-dataframe-analysis
