@@ -19,7 +19,7 @@
 - [Hands-On Learning]()
 
 - Homework
-  - [Question]()
+  - [Question](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/cohorts/2024/homework%202.md)
   - [Form Submitted]()
   - [Answer/Solution]()
 
