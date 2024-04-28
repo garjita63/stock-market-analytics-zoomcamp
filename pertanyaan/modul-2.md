@@ -84,3 +84,33 @@ Misalnya, untuk data pertama Anda harus memiliki:
 Pada hari itu, kelompok TERBESAR tumbuh lebih cepat dibandingkan kelompok BESAR (saham baru).
 
 Hitung jumlah hari ketika KELOMPOK BESAR (saham baru yang lebih kecil) mengungguli KELOMPOK TERBESAR, div
+
+
+### Pertanyaan 4: Mencoba strategi Indikator Teknis Lain
+
+Berapa total keuntungan kotor (dalam RIBUAN $) yang akan Anda peroleh dari trading di CCI (tanpa asumsi biaya)?
+
+Pertama, jalankan seluruh Colab untuk mendapatkan DataFrame data lengkap (setelah [Cuplikan Kode 9]), dan potong menjadi data 10 tahun penuh terakhir (01-01-2014 hingga 31-12-2023). Jika Anda mengalami kesulitan dalam menjalankan Colab - Anda dapat mengunduhnya menggunakan tautan ini.
+
+Anggaplah Anda telah mempelajari indikator CCI (Indeks Saluran Komoditas) yang mengagumkan, dan memutuskan untuk hanya menggunakannya untuk operasi Anda.
+
+Anda menentukan nilai "defensif" dari ambang batas tinggi 200, dan Anda berdagang hanya pada hari Jumat (Tanggal.dt.dayofweek()==4).
+
+Artinya, setiap kali Anda melihat bahwa CCI >200 untuk saham mana pun (dari 33 saham tersebut), Anda akan menginvestasikan $1000 (setiap catatan ketika CCI>200) pada harga Adj.Close dan menahannya selama 1 minggu (5 hari perdagangan). ) untuk dijual di Adj. Tutup harga.
+
+Berapa laba kotor yang diharapkan (tanpa biaya) yang Anda peroleh dalam RIBUAN $ (nilai bilangan bulat terdekat) pada banyak operasi dalam 10 tahun? Perhitungan satu operasi: jika Anda menginvestasikan $1000 dan menerima $1010 dalam 5 hari - Anda menambahkan $10 ke laba kotor, jika Anda menerima $980 - tambahkan -$20 ke laba kotor. Anda perlu menjumlahkan hasil ini pada semua perdagangan (460 kali dalam 10 tahun).
+
+Tambahan:
+
+Tambahkan perkiraan penghitungan biaya untuk 460 perdagangan dari kalkulator ini https://www.degiro.ie/fees/calculator (Produk:"Saham, AS dan Kanada;" Jumlah per transaksi: "1000 EUR"; Transaksi per tahun: " 460")
+apakah Anda masih mendapat untung dari perdagangan itu?
+[EKSPLORASI] 
+
+
+### Pertanyaan 5: Menemukan Strategi Anda untuk IPO
+
+Anda telah melihat di pertanyaan pertama bahwa median dan rata-rata investasi dalam IPO adalah negatif, dan Anda tidak bisa begitu saja berinvestasi di semua transaksi.
+
+Bagaimana Anda memperbaiki/memperbaiki pendekatan ini? Jelaskan secara singkat langkah-langkah dan data yang akan Anda coba dapatkan (secara umum hal tersebut dapat dilakukan dari sumber publik - tidak ada akses ke data internal perusahaan)?
+
+Misalnya. (beberapa ide) Apakah Anda ingin fokus pada vertikal tertentu? Apakah Anda ingin membuat perbandingan cerdas vs. saham-saham yang ada di pasar? Atau Anda hanya ingin mendapatkan beberapa fitur (fitur apa?) seperti jumlah total orang di suatu perusahaan untuk menemukan segmen IPO yang "sukses"?
