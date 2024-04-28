@@ -85,7 +85,7 @@ Pada hari itu, kelompok TERBESAR tumbuh lebih cepat dibandingkan kelompok BESAR 
 
 Hitung jumlah hari ketika KELOMPOK BESAR (saham baru yang lebih kecil) mengungguli KELOMPOK TERBESAR, div
 
-
+---
 ### Pertanyaan 4: Mencoba strategi Indikator Teknis Lain
 
 Berapa total keuntungan kotor (dalam RIBUAN $) yang akan Anda peroleh dari trading di CCI (tanpa asumsi biaya)?
@@ -106,7 +106,7 @@ Tambahkan perkiraan penghitungan biaya untuk 460 perdagangan dari kalkulator ini
 apakah Anda masih mendapat untung dari perdagangan itu?
 [EKSPLORASI] 
 
-
+---
 ### Pertanyaan 5: Menemukan Strategi Anda untuk IPO
 
 Anda telah melihat di pertanyaan pertama bahwa median dan rata-rata investasi dalam IPO adalah negatif, dan Anda tidak bisa begitu saja berinvestasi di semua transaksi.
