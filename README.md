@@ -20,6 +20,6 @@
 
 - Homework
   - [Question](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/cohorts/2024/homework%202.md)
-  - [Form Submitted]()
+  - [Form Submitted](https://courses.datatalks.club/sma-zoomcamp-2024/homework/hw02)
   - [Answer/Solution]()
 
