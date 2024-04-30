@@ -20,26 +20,23 @@ Temukan jumlah total dalam $m (jutaan USD, bilangan INTEGER terdekat) untuk semu
 (tambahan: Anda dapat membaca tentang [pengajuan IPO S-1](https://www.dfinsolutions.com/knowledge-hub/thinkt-leadership/knowledge-resources/what-s-1-ipo-filing) untuk memahami konteks)
 
 ---
-### Pertanyaan 2: Strategi IPO "Penahanan hari tetap".
+Pertanyaan 2: Strategi IPO "Fixed Days Hold".
+Temukan jumlah hari X yang optimal (antara 1 dan 30), dimana pertumbuhan kuantil 75% adalah yang tertinggi?
 
+Gunakan kembali [Cuplikan Kode 1] untuk mengambil daftar IPO dari tahun 2023 dan 2024 (dari URL: https://stockanalisis.com/ipos/2023/ dan https://stockanalisis.com/ipos/2024/). Dapatkan semua harga harian OHLCV untuk semua saham dengan "tanggal IPO" sebelum 1 Maret 2024 ("< 01-03-2024") - 184 ticker (tanpa 'RYZB'). Harap hapus 'RYZB', karena tidak lagi tersedia di Yahoo Finance.
 
-**Temukan jumlah hari X yang optimal (antara 1 dan 30), dengan pertumbuhan kuantil 75% adalah yang tertinggi?**
+Terkadang Anda mungkin perlu menyesuaikan nama simbol (misalnya, 'IBAC' di stockanalisis.com -> 'IBACU' di Yahoo Finance) untuk menemukan harga OHLCV untuk semua saham. Beberapa ticker seperti 'DYCQ' dan 'LEGT' berada di pasar kurang dari 30 hari (masing-masing 11 dan 21 hari). Biarkan saja di kumpulan data; itu hanya berarti Anda tidak dapat menyimpannya lebih lama dari yang tercantum.
 
-
-Gunakan kembali [Cuplikan Kode 1] untuk mengambil daftar IPO dari tahun 2023 dan 2024 (dari URL: https://stockanalisis.com/ipos/2023/ dan https://stockanalisis.com/ipos/2024/). Dapatkan semua harga harian OHLCV untuk semua saham dengan "tanggal IPO" sebelum 1 Maret 2024 ("< 01-03-2024") - 185 ticker. Terkadang Anda mungkin perlu menyesuaikan nama simbol (misalnya, 'IBAC' di stockanalisis.com -> 'IBACU' di Yahoo Finance) untuk menemukan harga OHLCV untuk semua saham.
-
-Anggaplah Anda berhasil membeli saham baru (tercatat saat IPO) pada hari pertama dengan harga [Adj Close]]. Strategi Anda adalah menahan tepat selama X hari penuh (di mana X berada di antara 1 dan 30) dan menjual pada harga "Adj. Close" dalam X hari (misalnya, jika X=1, Anda menjual pada hari berikutnya).
-Temukan X, ketika pertumbuhan kuantil 75% (di antara 185 investasi) adalah yang tertinggi.
+Anggaplah Anda berhasil membeli saham baru (tercatat saat IPO) pada hari pertama dengan harga [Adj Close]]. Strategi Anda adalah menahan tepat selama X hari penuh (di mana X berada di antara 1 dan 30) dan menjual pada harga "Adj. Close" dalam X hari (misalnya, jika X=1, Anda menjual pada hari berikutnya). Temukan X, ketika pertumbuhan kuantil 75% (di antara 185 investasi) adalah yang tertinggi.
 
 PETUNJUK:
-* Anda dapat membuat 30 kolom tambahan: growth_future_1d ... growth_future_30d, gabungkan dengan tabel min_dates (hari pertama ketika setiap saham memiliki data di Yahoo Finance), dan lakukan operasi vektor pada kumpulan data yang dihasilkan.
-* Anda dapat menggunakan fungsi `DataFrame.describe()` untuk mendapatkan kuantil mean, min, max, 25-50-75%.
 
-
+Anda dapat membuat 30 kolom tambahan: growth_future_1d ... growth_future_30d, gabungkan dengan tabel min_dates (hari pertama ketika setiap saham memiliki data di Yahoo Finance), dan lakukan operasi vektor pada kumpulan data yang dihasilkan.
+Anda dapat menggunakan fungsi DataFrame.describe() untuk mendapatkan kuantil mean, min, max, 25-50-75%.
 Tambahan:
-* Anda juga dapat memastikan bahwa rata-rata dan hasil investasi persentil ke-50 (median) adalah negatif untuk sebagian besar nilai X, sehingga menyiratkan taruhan untuk investor yang "beruntung" yang mungkin berada di 25% teratas.
-* Apa rekomendasi Anda: Apakah Anda menyarankan untuk menerapkan strategi ini untuk mendapatkan X yang optimal?
 
+Anda juga dapat memastikan bahwa rata-rata dan hasil investasi persentil ke-50 (median) adalah negatif untuk sebagian besar nilai X, sehingga menyiratkan taruhan bagi investor yang "beruntung" yang mungkin berada di 25% teratas.
+Apa rekomendasi Anda: Apakah Anda menyarankan untuk menerapkan strategi ini untuk mendapatkan X yang optimal?
 
 ---
 ### Pertanyaan 3: Apakah Pertumbuhan Terkonsentrasi pada Saham Terbesar?
