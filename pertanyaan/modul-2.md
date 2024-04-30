@@ -20,7 +20,8 @@ Temukan jumlah total dalam $m (jutaan USD, bilangan INTEGER terdekat) untuk semu
 (tambahan: Anda dapat membaca tentang [pengajuan IPO S-1](https://www.dfinsolutions.com/knowledge-hub/thinkt-leadership/knowledge-resources/what-s-1-ipo-filing) untuk memahami konteks)
 
 ---
-Pertanyaan 2: Strategi IPO "Fixed Days Hold".
+## Pertanyaan 2: Strategi IPO "Fixed Days Hold".
+
 Temukan jumlah hari X yang optimal (antara 1 dan 30), dimana pertumbuhan kuantil 75% adalah yang tertinggi?
 
 Gunakan kembali [Cuplikan Kode 1] untuk mengambil daftar IPO dari tahun 2023 dan 2024 (dari URL: https://stockanalisis.com/ipos/2023/ dan https://stockanalisis.com/ipos/2024/). Dapatkan semua harga harian OHLCV untuk semua saham dengan "tanggal IPO" sebelum 1 Maret 2024 ("< 01-03-2024") - 184 ticker (tanpa 'RYZB'). Harap hapus 'RYZB', karena tidak lagi tersedia di Yahoo Finance.
