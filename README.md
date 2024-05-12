@@ -28,7 +28,7 @@
 
 - [Source](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/tree/main/03-modeling)
 
-- [Hands-On Learning](https://github.com/garjita63/stock-market-analytics-zoomcamp/blob/main/Hands-On%20Learning/module-2/Module2_Colab_Working_with_the_data.ipynb)
+- [Hands-On Learning](https://github.com/garjita63/stock-market-analytics-zoomcamp/blob/main/Hands-On%20Learning/module-3/Module_3_Colab_Time_Series_Modeling.ipynb)
 
 - Homework
   - [Question](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/cohorts/2024/homework%202.md)
