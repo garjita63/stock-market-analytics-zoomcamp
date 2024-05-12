@@ -23,3 +23,14 @@
   - [Form Submitted](https://courses.datatalks.club/sma-zoomcamp-2024/homework/hw02)
   - [Answer/Solution](https://github.com/garjita63/stock-market-analytics-zoomcamp/tree/main/homework/module-2)
 
+
+## Module 03 : Modeling
+
+- [Source](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/tree/main/03-modeling)
+
+- [Hands-On Learning](https://github.com/garjita63/stock-market-analytics-zoomcamp/blob/main/Hands-On%20Learning/module-2/Module2_Colab_Working_with_the_data.ipynb)
+
+- Homework
+  - [Question](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/cohorts/2024/homework%202.md)
+  - [Form Submitted](https://courses.datatalks.club/sma-zoomcamp-2024/homework/hw02)
+  - [Answer/Solution](https://github.com/garjita63/stock-market-analytics-zoomcamp/tree/main/homework/module-2)
