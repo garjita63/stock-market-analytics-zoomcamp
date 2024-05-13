@@ -31,6 +31,6 @@
 - [Hands-On Learning](https://github.com/garjita63/stock-market-analytics-zoomcamp/blob/main/Hands-On%20Learning/module-3/Module_3_Colab_Time_Series_Modeling.ipynb)
 
 - Homework
-  - [Question](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/cohorts/2024/homework%202.md)
+  - [Question](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/cohorts/2024/homework%203.md)
   - [Form Submitted](https://courses.datatalks.club/sma-zoomcamp-2024/homework/hw02)
   - [Answer/Solution](https://github.com/garjita63/stock-market-analytics-zoomcamp/tree/main/homework/module-2)
