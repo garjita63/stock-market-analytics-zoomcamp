@@ -6,17 +6,17 @@ Harap gunakan Colab Modul 3 untuk semua tugas guna memastikan Anda memiliki kera
 
 ## Pertanyaan 1 (1 poin): Dummies tentang Bulan dan Minggu dalam Bulan
 
-Temukan NILAI KORELASI MUTLAK dari boneka <month_week_month_> yang paling berkorelasi dengan variabel hasil biner is_positivive_growth_5d_future?
+Temukan NILAI KORELASI MUTLAK dari dummy <month_week_month_> yang paling berkorelasi dengan variabel hasil biner is_positivive_growth_5d_future?
 
-Anda melihat dalam analisis korelasi dan pemodelan bahwa bulan September dan Oktober mungkin merupakan bulan musiman yang penting. Dalam tugas ini, kita akan melangkah lebih jauh dan mencoba membuat boneka untuk Bulan dan Minggu dalam sebulan (mulai dari 1). Misalnya, minggu pertama bulan Oktober harus diberi kode seperti ini: 'Oktober_w1'. Setelah Anda membuat kumpulan variabel baru, temukan variabel yang paling berkorelasi (dalam nilai absolut) dengan is_positif_growth_5d_future dan bulatkan menjadi 3 digit setelah koma.
+Anda melihat dalam analisis korelasi dan pemodelan bahwa bulan September dan Oktober mungkin merupakan bulan musiman yang penting. Dalam tugas ini, kita akan melangkah lebih jauh dan mencoba membuat dummy untuk Bulan dan Minggu dalam sebulan (mulai dari 1). Misalnya, minggu pertama bulan Oktober harus diberi kode seperti ini: 'Oktober_w1'. Setelah Anda membuat kumpulan variabel baru, temukan variabel yang paling berkorelasi (dalam nilai absolut) dengan is_positif_growth_5d_future dan bulatkan menjadi 3 digit setelah koma.
 
 Jalur yang disarankan menuju solusi:
 
 [Sumber] Gunakan rumus ini untuk mendapatkan minggu dalam bulan untuk variabel tanggal dan waktu d: (d.hari-1)//7+1
-Tentukan variabel string baru untuk semua kombinasi bulan-minggu_dari_bulan. Tambahkan ke kumpulan fitur CATEGORICAL. Anda seharusnya memiliki 5 variabel yang diperlakukan sebagai KATEGORIS sekarang: 'Bulan', 'Hari Kerja', 'Ticker', 'ticker_type', 'month_wom'. Pada akhirnya, Anda akan mendapatkan 115 fitur tiruan, termasuk 60 (=12*5) boneka minggu_bulan_minggu.
-Gunakan pandas.get_dummies() untuk menghasilkan boneka.
-Gunakan fungsi pandas.DataFrame.corr() (juga digunakan dalam [Cuplikan Kode 1]) untuk mendapatkan korelasi dengan is_positif_growth_5d_future, filter hanya variabel yang mewakili kumpulan dummy baru, dan urutkan berdasarkan nilai absolut (Anda dapat menentukan kolom baru "abs_corr " dalam kerangka data dengan korelasi), dan temukan nilai tertinggi (di antara kumpulan fitur boneka baru).
-CATATAN: boneka baru akan digunakan sebagai fitur dalam tugas berikutnya, harap tinggalkan di kumpulan data.
+Tentukan variabel string baru untuk semua kombinasi bulan-minggu_dari_bulan. Tambahkan ke kumpulan fitur CATEGORICAL. Anda seharusnya memiliki 5 variabel yang diperlakukan sebagai KATEGORIS sekarang: 'Bulan', 'Hari Kerja', 'Ticker', 'ticker_type', 'month_wom'. Pada akhirnya, Anda akan mendapatkan 115 fitur tiruan, termasuk 60 (=12*5) dummy minggu_bulan_minggu.
+Gunakan pandas.get_dummies() untuk menghasilkan dummy.
+Gunakan fungsi pandas.DataFrame.corr() (juga digunakan dalam [Cuplikan Kode 1]) untuk mendapatkan korelasi dengan is_positif_growth_5d_future, filter hanya variabel yang mewakili kumpulan dummy baru, dan urutkan berdasarkan nilai absolut (Anda dapat menentukan kolom baru "abs_corr " dalam kerangka data dengan korelasi), dan temukan nilai tertinggi (di antara kumpulan fitur dummy baru).
+CATATAN: dummy baru akan digunakan sebagai fitur dalam tugas berikutnya, harap tinggalkan di kumpulan data.
 
 ## Pertanyaan 2 (2 poin): Tentukan aturan "tangan" baru pada variabel indikator makro dan teknis
 
