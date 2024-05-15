@@ -6,7 +6,7 @@ Harap gunakan Colab Modul 3 untuk semua tugas guna memastikan Anda memiliki kera
 
 ## Pertanyaan 1 (1 poin): Dummies tentang Bulan dan Minggu dalam Bulan
 
-Temukan NILAI KORELASI MUTLAK dari boneka <month_week_month_> yang paling berkorelasi dengan variabel hasil biner is_positif_pertumbuhan_5d_masa depan?
+Temukan NILAI KORELASI MUTLAK dari boneka <month_week_month_> yang paling berkorelasi dengan variabel hasil biner is_positivive_growth_5d_future?
 
 Anda melihat dalam analisis korelasi dan pemodelan bahwa bulan September dan Oktober mungkin merupakan bulan musiman yang penting. Dalam tugas ini, kita akan melangkah lebih jauh dan mencoba membuat boneka untuk Bulan dan Minggu dalam sebulan (mulai dari 1). Misalnya, minggu pertama bulan Oktober harus diberi kode seperti ini: 'Oktober_w1'. Setelah Anda membuat kumpulan variabel baru, temukan variabel yang paling berkorelasi (dalam nilai absolut) dengan is_positif_growth_5d_future dan bulatkan menjadi 3 digit setelah koma.
 
