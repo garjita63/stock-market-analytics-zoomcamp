@@ -6,9 +6,9 @@ Harap gunakan Colab Modul 3 untuk semua tugas guna memastikan Anda memiliki kera
 
 ## Pertanyaan 1 (1 poin): Dummies tentang Bulan dan Minggu dalam Bulan
 
-Temukan NILAI KORELASI MUTLAK dari dummy <month_week_month_> yang paling berkorelasi dengan variabel hasil biner is_positivive_growth_5d_future?
+Temukan NILAI KORELASI MUTLAK dari dummy <month_week_month_> yang paling berkorelasi dengan variabel hasil biner is_positive_growth_5d_future?
 
-Anda melihat dalam analisis korelasi dan pemodelan bahwa bulan September dan Oktober mungkin merupakan bulan musiman yang penting. Dalam tugas ini, kita akan melangkah lebih jauh dan mencoba membuat dummy untuk Bulan dan Minggu dalam sebulan (mulai dari 1). Misalnya, minggu pertama bulan Oktober harus diberi kode seperti ini: 'Oktober_w1'. Setelah Anda membuat kumpulan variabel baru, temukan variabel yang paling berkorelasi (dalam nilai absolut) dengan is_positif_growth_5d_future dan bulatkan menjadi 3 digit setelah koma.
+Anda melihat dalam analisis korelasi dan pemodelan bahwa bulan September dan Oktober mungkin merupakan bulan musiman yang penting. Dalam tugas ini, kita akan melangkah lebih jauh dan mencoba membuat dummy untuk Bulan dan Minggu dalam sebulan (mulai dari 1). Misalnya, minggu pertama bulan Oktober harus diberi kode seperti ini: 'Oktober_w1'. Setelah Anda membuat kumpulan variabel baru, temukan variabel yang paling berkorelasi (dalam nilai absolut) dengan is_positive_growth_5d_future dan bulatkan menjadi 3 digit setelah koma.
 
 Jalur yang disarankan menuju solusi:
 
@@ -46,7 +46,7 @@ Solusi yang disarankan:
 
 Langkah 1: Tulis ulang bagian '1.4.3 Inferensi untuk pohon keputusan' untuk Pengklasifikasi Pohon Keputusan dengan max_ depth = 10 (clf_10), sehingga Anda sesuai dengan model pada set TRAIN+VALIDATION (tidak berubah dari kuliah), tetapi prediksi pada seluruh set X_all (untuk dapat mendefinisikan kolom baru 'pred5_clf_10' dalam kerangka data new_df). Berikut tautan beserta penjelasannya. Ini akan menyelesaikan masalah di 1.4.5 ketika prediksi dibuat hanya untuk kumpulan data Uji dan tidak dapat dengan mudah digabungkan dengan kumpulan data lengkap.
 
-Langkah 2: Setelah Anda memilikinya, tentukan kolom baru 'only_pred5_is_true' mirip dengan aturan prediksi 'tangan' dengan beberapa ketentuan: is_positif_growth_5d_future DAN is_true_pred5 harus sama dengan 1, sedangkan semua prediksi lainnya is_true_pred0..is_true_pred4 harus sama dengan 0.
+Langkah 2: Setelah Anda memilikinya, tentukan kolom baru 'only_pred5_is_true' mirip dengan aturan prediksi 'tangan' dengan beberapa ketentuan: is_positive_growth_5d_future DAN is_true_pred5 harus sama dengan 1, sedangkan semua prediksi lainnya is_true_pred0..is_true_pred4 harus sama dengan 0.
 
 Langkah3: Ubah kolom 'only_pred5_is_true' dari bool menjadi int, dan temukan berapa kali kolom tersebut sama dengan 1 di set TEST. Tuliskan ini sebagai jawabannya.
 
