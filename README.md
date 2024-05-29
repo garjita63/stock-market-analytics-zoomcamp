@@ -34,3 +34,15 @@
   - [Question](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/cohorts/2024/homework%203.md)
   - [Form Submitted](https://courses.datatalks.club/sma-zoomcamp-2024/homework/hw03)
   - [Answer/Solution](https://github.com/garjita63/stock-market-analytics-zoomcamp/tree/main/homework/module-3)
+
+
+## Module 04 : Trading Strategy And Simulation
+
+- [Source](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/tree/main/04-trading-strategy-and-simulation)
+
+- [Hands-On Learning]()
+
+- Homework
+  - [Question](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/cohorts/2024/homework%204.md)
+  - [Form Submitted](https://courses.datatalks.club/sma-zoomcamp-2024/homework/hw04)
+  - [Answer/Solution](https://github.com/garjita63/stock-market-analytics-zoomcamp/tree/main/homework/module-4)
